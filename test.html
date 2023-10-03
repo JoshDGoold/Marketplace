@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+
+<h1> HTML Forms</h1>
+
+<body>
+    <form action="/action_page.php">
+        <tr>
+        <td><label for="fname">First name:</label><br></td>
+        <td><input type="text" id="fname" name="fname"></td><br>
+        </tr>
+        <tr>
+        <td><label for="lname">Last name:</label></td><br>
+        <td><input type="text" id="lname" name="lname"></td><br>
+        </tr>
+        <tr>
+        <td><label for="pwd">Password:</label></td><br>
+        <td><input type="password" id="pwd" name="pwd"></td><br>
+        </tr>
+        <tr>
+        <td><label for="cname"> College Name:</label></td><br>
+        <td><input type="text" id="cname" name="cname"></td><br>
+        </tr>
+        <tr>
+        <td><label for="age"> Age: </label></td><br>
+        <td><input type="text" id="age" name="age"></td><br>
+        </tr>
+        <tr>
+        <td><label for="tdate"> Todays Date:</label></td><br>
+        <td><input type="text" id="tdate" name="tdate"></td><br>
+        </tr>
+        <tr>
+        <label for="studdnttype"> Student Type:</label><br>
+        <input type="radio" id="ptime" name="studenttype" value="ptime">
+        <label for="ptime"> Part-Time </label><br>
+        <input type="radio" id="ftime" name="studenttype" value="ftime">
+        <label for="ftime"> Full-Time </label><br>
+        <input type="radio" id="tstu" name="studenttype" value="tstu">
+        <label for="ptime"> Transfered-Student </label><br>
+        </tr>
+        <tr>
+        <td> Hobbies: </td><br>
+        <td>
+            <fieldset>
+                <legend>Hobbies</legend>
+            <input type="checkbox" id="swim" name="hobbies" value="swim">
+            <label for="ptime"> Swimming </label><br>
+            <input type="checkbox" id="read" name="hobbies" value="read">
+            <label for="ftime"> Reading </label><br>
+            <input type="checkbox" id="write" name="hobbies" value="write">
+            <label for="ptime"> Writing </label><br>
+            </fieldset> 
+        </td>
+        </tr>
+        <tr>
+            <td>Cities: </td>
+            <td>
+                <select name="cities" size="5" multiple>
+                    <optgroup label="Ontario">
+                        <option value="TRNT">Toronto</option>
+                        <option value="OTW">Ottawa</option>
+                        <option value="MS">Missisauga</option>
+                    </optgroup>
+                    <optgroup label="Alberta">
+                        <option value="CLG">Calgary</option>
+                        <option value="EDT">Edmonton</option>
+                    </optgroup>
+                    <optgroup label="British Columbia">
+                        <option value="VC">Vancouver</option>
+                        <option value="WS">Whistler</option>
+                        <option value="VCT">Victoria</option>
+                    </optgroup>
+                </select>
+            </td>
+        </tr>
+        <table>
+            <tr>
+                <td>Comments: </td>
+                <td><textarea name="comments" cols=100 rows=10></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="em">Email: </label></td>
+                <td><input type="email" id="em" name="email"></td>
+            </tr>
+            <tr>
+                <td><label for="url">url: </label> </td>
+                <td><input type="url" id="url" name="url"> </td>
+            </tr>
+            <tr>
+                <td><label for="uf">Upload a File: </label> </td>
+                <td><input type="file" id="uf" name="file1"> </td>
+            </tr>
+            <tr>
+                <td><label for="re">Rate your experience:</label> </td>
+                <td><input type="range" id="re" name="exp" min="1" max="5"> </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td><input type="submit" name="btnsubmit"> </td>
+                <td><input type="reset" name="btnreset" value="clear"> </td>
+                <td><input type="button" name="btnalert" value="Alert"> </td>
+                <td><input type="image" src="turtleart.jpeg" height="50" width="50"> </td>
+                <td><button>
+                    <img src="carpentry.jpeg" height="50" width="50"> Add to cart
+                </button></td>
+            </tr>
+        </table>
+</form>
+
+</body>
+</html>
