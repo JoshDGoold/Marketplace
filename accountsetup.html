@@ -5,16 +5,164 @@
         <meta charset="utf-8">
         
     </head>
+<header>
+  <style>
+    .mydiv {border: 5px outset black; background-color: rgb(144, 184, 36);}
+    h1 {text-align: center; 
+            text-decoration: overline;}
+    h2 {text-align: center;}
+    form {text-align: center;}
+   table {margin-left: auto;
+  margin-right: auto;}
+  p {text-align: center;}
+  h3 {text-align: center;}
+  .myDiv2 {border: 5px outset rgb(144, 184, 36);}
+  button {
+             background-color: #000000;
+             color: white;
+             padding: 10px 24px;
+            font-size: 12px;
+             cursor: pointer;
+             text-align: center;
+            border-radius: 15%;
+             bottom: 10%;
+            right: 10%;
+    }
+footer {text-align: center;}
 
+  </style>
+  <div class="mydiv">
+    
+    <br>
+    <h1> Quest Marketplace </h1>
 
+    
+  
+</div>
+<footer>
+<button onclick="window.location.href= 'Marketplace.html'"> Home </button>
+</footer>
+</header>
+<br>
+<br>
+<br>
+<body>
   <h2>Begin Your Quest!</h2>
   
-  <form action="/action_page.php">
+  <form>
     <label for="username">Username:</label><br>
-    <input type="text" id="username" name="username"><br>
+    <input type="text" id="username" name="username" placeholder="Username"><br>
     <label for="pwd">Password:</label><br>
-    <input type="password" id="pwd" name="pwd"><br><br>
+    <input type="password" id="pwd" name="pwd" placeholder="Password"><br><br>
     <input type="submit" value="Submit">
   </form>
+  <br>
+  <br>
+  <hr color="black">
+  <h2>Why choose Quest?</h2>
 
+<hr color="black">
+<br>
+  <table border="2px">
+    <tr>
+      <td> <b>Pros</b> </td>
+      <td> <b>Cons</b> </td>
+    </tr>
+    <tr>
+      <td> Money on the side!</td>
+      <td> Requires Effort</td>
+    </tr>
+    <tr>
+      <td> Endless Oppurtunity!</td>
+      <td> Requires Effort.</td>
+    </tr>
+    <tr>
+      <td> It's Exciting!</td>
+      <td> Requires Effort..</td>
+    </tr>
+    <tr>
+      <td> Do what you love!</td>
+      <td> Requires Effort...</td>
+    </tr>
+  </table>
+  <br>
+  <br>
+  <p>
+    <strong>
+      Quest acts as a marketplace service that is completely reliant on its community. Everyone has skills, but for those who
+      possess skills that are useful to others will flourish in this Marketplace! Artists, Carpenters, Designers, Programmers,
+      Photographers, Editors, Teachers, and many more!! Begin your Quest today, and start making money doing what you love!
+    </strong>
+  </p>
+  <br>
+  <br>
+<img src="carpentry.jpeg" height="200" width="400"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="photography.jpeg" height="200" width="400"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="turtleart.jpeg" height="200" width="400">
+<br>
+<br>
+<hr color="black">
+<br>
+<br>
+<div class="myDiv2">
+<h2> Please Complete our Survey </h2>
+
+    <h3> Contact Information</h3>
+
+<form>
+  <table>
+      <tr>
+          <td><label for="email"><b> Email Address: </b></label> </td>
+          <td><input type="email" id="email" placeholder="Email"> </td>
+      </tr>
+      <tr>
+          <td><label for="fname"><b>First Name: </b> </label></td>
+          <td><input type="text" id="fname" name="fname" placeholder="First Name"></td>
+      </tr>
+      <tr>
+          <td><label for="lname"><b> Last Name: </b></label> </td>
+          <td><input type="text" id="lname" name="lname" placeholder="Last Name"> </td>
+      </tr>
+  </table>
+  <br>
+  <h3> Geographic Information </h3>
+  <table>
+      <tr>
+          <td><label for="state"><b> State: </b></label> </td>
+          <td><input type="text" id="state" name="state" maxlength="2" placeholder="Two Characters"> </td>
+      </tr>
+      <tr>
+          <td><label for="zip"><b> Zip Code: </b></label> </td>
+          <td><input type="text" id="zip" name="zip" maxlength="5" placeholder="Max 5 Digits"> </td>
+      </tr>
+  </table>
+  <br>
+  <h3> How did you hear about us?</h3>
+  <table>
+          
+          <label for="source"><b> Web Search: </b> </label>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; 
+          <input type="checkbox" id="web" name="source"><br>
+          <label for="source"><b> Facebook:</b> </label>&nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;
+          <input type="checkbox" id="fb" name="source"><br>
+          <label for="source"><b>Twitter:</b>  </label>&nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp;
+          <input type="checkbox" id="twit" name="source"><br>
+          <label for="source"><b> Email Message: </b></label>&nbsp;&nbsp;
+          <input type="checkbox" id="email" name="source"><br>
+          
+      </table>
+
+      <h3> Thank you for taking our survey!</h3>
+      <table>
+          <tr>
+              <td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;
+                  <input type="submit" name="btnsubmit">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </td>
+              <td><input type="reset" name="btnreset" value="Reset"> </td>
+              </tr>
+      </table>
+
+</form>
+</div>
+</body>
 </html>
